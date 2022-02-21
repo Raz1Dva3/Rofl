@@ -1,0 +1,233 @@
+@media (min-width: 600px) {
+    #sidebar {
+        display: none;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    text-align: center;
+    font-size: 17px;
+    background: #262626;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: chocolate
+}
+
+h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: crimson
+}
+
+kbd {
+    text-decoration: underline;
+}
+
+img {
+    border-style: groove;
+    border-width: 15px;
+    border-color: brown;
+}
+
+abbr {
+    color: blue;
+}
+
+pre {
+    background-color: dimgray;
+}
+
+/**Крутая штука**/
+img {
+    background-color: crimson;
+    color: transparent;
+    -webkit-background-clip: text;
+    transition: all 1s;
+}
+
+img:hover {
+    backgrond-position: 50% -50%;
+    background-color: yellow;
+    transform: scale3d(3, 3, 0);
+}
+
+mark {
+    color: #262626;
+    background-color: chartreuse;
+}
+
+input[type=email]:valid {
+    background: green
+}
+
+input[type=email]:invalid {
+    background: red
+}
+
+video {
+    height: 300px;
+    width: 400px;
+    border: dashed;
+}
+
+#text {
+    font-family: cursive;
+    text-align: center;
+    color: aqua;
+    background-color: dimgrey;
+}
+
+.intro {
+    color: chartreuse;
+}
+
+#cum p {
+    font-style: italic;
+    color: darkmagenta;
+}
+
+#cum h3 {
+    color: aqua;
+    border-color: black;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+a {
+    transition: all 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    transform: scale(2);
+    background: linear-gradient(hsl(0, 100%, 50%), hsl(60, 100%, 50%), hsl(120, 100%, 50%), hsl(180, 100%, 50%), hsl(240, 100%, 50%), hsl(300, 100%, 50%));
+}
+
+input:focus,
+textarea:focus {
+    background: #eee;
+}
+
+p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    border-style: solid;
+    border: red blue green black;
+    margin: 10px;
+    padding: 50px 20px;
+    background-color: darkslategrey;
+    transition: all 1s;
+}
+
+li:hover {
+    transform: scale(1.5) rotate3d(10, 5, 1, 360deg);
+    background-image: url(foto.png);
+    color: hsla(0, 10%, 10%, 1);
+}
+
+#navigation a {
+    display: block;
+    padding: 20px 10px;
+}
+
+legend {
+    border: 10px 100px;
+}
+
+input {
+    font-family: 'Circe Rounded';
+    font-weight: 400;
+    font-style: normal;
+}
+
+blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
+}
+
+li:before {
+    content: "# ";
+    background-color: darkolivegreen;
+}
+
+p:before {
+    content: url(images/jam.jpg);
+}
+
+#polosa h1 {
+    border-color: #262626;
+    border-bottom-color: #CD5C5C;
+    padding: 0px 800px;
+    background-color: hsla(1, 0%, 50%, 0.5);
+    border-style: solid;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    color: hsla(0, 50%, 50%, 0.5);
+    text-align: center;
+}
+
+#nani {
+    background: #fff;
+    width: 200px;
+    height: 150px;
+    border-radius: 100px/100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 100px 5px;
+    position: absolute;
+    top: 1550px;
+    transition: all 1s;
+}
+
+#nani:hover {
+    background-image: url(troll.jpeg);
+    box-shadow: 0px 0px 100px 105px #000;
+    transform: rotate3d(0, 1, 0.5, 30deg)
+}
+
+input[type=text] {
+    width: 200px;
+    height: 20px;
+    border: solid green 20px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.flex-container > div {
+    background-color: darksalmon;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
